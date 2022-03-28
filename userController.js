@@ -1,7 +1,7 @@
-const {users} = require('./models');
+const users = require('./models');
 
 // import { users } from '../models';
-const { downloadResource } = require('./util');
+const  downloadResource = require('./util');
 
  const controller = {};
 

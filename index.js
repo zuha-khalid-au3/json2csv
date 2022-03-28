@@ -13,7 +13,7 @@ const app = express();
 //   console.log("mongoose is connected")
 // })
 
-const uri ='mongodb+srv://siraj:siraj123@cluster0.w3rtc.mongodb.net/passport?authSource=admin&replicaSet=atlas-d0mbui-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true'
+const uri ='mongodb+srv://siraj:siraj123@cluster0.w3rtc.mongodb.net/gh?authSource=admin&replicaSet=atlas-d0mbui-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true'
 mongoose
   .connect(uri, {
    keepAlive: 1,

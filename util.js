@@ -7,4 +7,4 @@ const downloadResource = (res, fileName, fields, data) => {
   res.attachment(fileName);
   return res.send(csv);
 }
-
+module.exports = downloadResource;
